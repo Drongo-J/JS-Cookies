@@ -1,0 +1,27 @@
+*{
+    text-align: center;
+    margin: 0;
+    padding: 0
+}
+
+table{
+    border: 0.5px solid black;
+    box-shadow: 0 0 10px black;
+    margin: auto;
+    margin-top: 50px;
+}
+
+td{
+    font-size: 3em;
+    width: 60px;
+    height: 60px;
+    border: 0.5px solid black;
+    transition-property: background-color;
+    transition-duration: 1s;
+}
+
+td:hover{
+    background-color: deepskyblue;
+    transition-property: background-color;
+    transition-duration: 1s;
+}
